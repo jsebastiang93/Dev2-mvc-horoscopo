@@ -41,4 +41,4 @@ Este proyecto será desplegado en [Vercel](https://vercel.com/) como parte del e
 
 ---
 
-**Desarrollado como ejercicio académico de arquitectura MVC en desarrollo web.**
+**Desarrollado como ejercicio académico de arquitectura MVC en Desarrollo de Software II | Unicatólica | Juan Sebastian Gutierrez Escobar ID374164.**
