@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Horóscopo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/model.js"></script>
+    <script defer src="js/view.js"></script>
+    <script defer src="js/controller.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Horóscopo al día</h1>
+        <p>Ingresa tu fecha de nacimiento y consulta tu horóscopo.</p>
+        
+        <!-- Formulario para ingresar fecha de nacimiento -->
+        <div class="form">
+            <label for="fecha-nacimiento">Fecha de Nacimiento (DD-MM-AAAA):</label>
+            <input type="text" id="fecha" placeholder="Ej. 01-09-1993" />
+            <button id="consultar" disabled>Consultar</button>
+            <div id="resultado" class="resultado oculto"></div>
+        </div>
+
+        <!-- Contenedor donde se mostrará el horóscopo -->
+        <div id="horoscopo-container" class="horoscopo-container hidden">
+            <p id="horoscopo-text"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p style="color: grey;">Desarrollado Práctica MVC | Juan Sebastián Gutiérrez ID 374164</p>
+    </footer>
+
+    <script>
+        // Controlador inicial (para establecer los listeners)
+        document.addEventListener("DOMContentLoaded", () => {
+            const consultarBtn = document.getElementById("consultar");
+            const fechaInput = document.getElementById("fecha-nacimiento");
+
+            // Event listener para el input de fecha
+            fechaInput.addEventListener("input", () => {
+                manejarInputFecha(); // Función que valida la fecha
+            });
+
+            // Event listener para el botón consultar
+            consultarBtn.addEventListener("click", () => {
+                manejarConsulta(); // Función que consulta y muestra el horóscopo
+            });
+        });
+    </script>
+</body>
+</html>
