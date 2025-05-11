@@ -42,6 +42,7 @@ Este proyecto se desplegó en [Vercel] con el siguiente enlace: (https://dev2-mv
 ## 🚀 Github 
 
 Enlace del repositorio de código en Github: (https://github.com/jsebastiang93/Dev2-mvc-horoscopo.git).
+
 ---
 
 **Desarrollado como ejercicio académico de arquitectura MVC en Desarrollo de Software II | Unicatólica | Juan Sebastian Gutierrez Escobar ID374164.**
