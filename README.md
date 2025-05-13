@@ -37,7 +37,7 @@ Este proyecto implementa el patrón **MVC** dividiendo el código en tres capas:
 
 ## 🚀 Despliegue
 
-Este proyecto se desplegó en [Vercel] con el siguiente enlace: (https://dev2-mvc-horoscopo-7ey3lp129-juan-sebastian-gutierrezs-projects.vercel.app/) como parte del entregable de la práctica. 
+Este proyecto se desplegó en [Vercel] con el siguiente enlace: (https://dev2-mvc-horoscopo.vercel.app/) como parte del entregable de la práctica. 
 
 ## 🚀 Github 
 
